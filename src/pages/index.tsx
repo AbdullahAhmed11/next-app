@@ -1,14 +1,15 @@
 
-import { Inter } from 'next/font/google'
+import Navbar from "@/components/Navbar/Navbar";
+import React from "react";
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-          <h1>
-            Hello ALll
-          </h1>
+
+      <div>
+        <Navbar/>
+      </div>
     </>
   )
 }
